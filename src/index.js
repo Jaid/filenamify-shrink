@@ -1,12 +1,14 @@
 /** @module filenamify-shrink */
 
+import filenamify from "filenamify"
+
 /**
- * Returns the number of seconds passed since Unix epoch (01 January 1970)
  * @function
- * @returns {number} Seconds since epoch
+ * @param {string} string
+ * @returns {string} A file-safe string
  * @example
  * import filenamifyShrink from "filenamify-shrink"
- * const result = filenamifyShrink()
- * result === 1549410770
+ * const result = filenamifyShrink("a ?  ?b")
+ * result === "a b"
  */
-export default () => Math.floor(Date.now() / 1000)
+export default string => filenamify(string, {replacement: ""}).replace(/ +/g, " ")

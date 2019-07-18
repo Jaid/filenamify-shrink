@@ -8,6 +8,6 @@ const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.jo
 const {default: filenamifyShrink} = indexModule
 
 it("should run", () => {
-  const result = filenamifyShrink()
-  expect(result).toBeGreaterThan(1549410770)
+  const result = filenamifyShrink("a ?  ?b")
+  expect(result).toBe("a b")
 })
