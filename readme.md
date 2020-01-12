@@ -1,49 +1,82 @@
 # filenamify-shrink
 
 
-Ensures file-safe strings by removing invalid characters.
+<a href="https://raw.githubusercontent.com/Jaid/filenamify-shrink/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/filenamify-shrink?style=flat-square" alt="License"/></a>  
+<a href="https://actions-badge.atrox.dev/Jaid/filenamify-shrink/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Ffilenamify-shrink%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/filenamify-shrink/commits"><img src="https://img.shields.io/github/commits-since/Jaid/filenamify-shrink/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/filenamify-shrink/commits"><img src="https://img.shields.io/github/last-commit/Jaid/filenamify-shrink?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/filenamify-shrink/issues"><img src="https://img.shields.io/github/issues/Jaid/filenamify-shrink?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/filenamify-shrink"><img src="https://img.shields.io/npm/v/filenamify-shrink?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/filenamify-shrink/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/filenamify-shrink?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/filenamify-shrink"><img src="https://img.shields.io/npm/dm/filenamify-shrink?style=flat-square&logo=npm" alt="Downloads"/></a>
+
+**Ensures file-safe strings by removing invalid characters.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Installation
-<a href='https://npmjs.com/package/filenamify-shrink'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
+<a href="https://npmjs.com/package/filenamify-shrink"><img src="https://img.shields.io/badge/npm-filenamify--shrink-C23039?style=flat-square&logo=npm" alt="filenamify-shrink on npm"/></a>
 ```bash
 npm install --save filenamify-shrink@^1.0.0
 ```
-<a href='https://yarnpkg.com/package/filenamify-shrink'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
+<a href="https://yarnpkg.com/package/filenamify-shrink"><img src="https://img.shields.io/badge/Yarn-filenamify--shrink-2F8CB7?style=flat-square&logo=yarn&logoColor=white" alt="filenamify-shrink on Yarn"/></a>
 ```bash
 yarn add filenamify-shrink@^1.0.0
+```
+<a href="https://jsdelivr.com/package/npm/filenamify-shrink/"><img src="https://img.shields.io/badge/jsDelivr-filenamify--shrink-orange?style=flat-square&logo=html5&logoColor=white" alt="filenamify-shrink on jsDelivr"/></a> <a href="https://unpkg.com/browse/filenamify-shrink/"><img src="https://img.shields.io/badge/UNPKG-filenamify--shrink-orange?style=flat-square&logo=html5&logoColor=white" alt="filenamify-shrink on UNPKG"/></a>
+```html
+<script src="https://cdn.jsdelivr.net/npm/filenamify-shrink@1.0.0/index.js"/>
 ```
 
 
 ## Try it out
-<img alt='Chromium logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/browser.png'/>
+
+
+
 Open a browser's JavaScript console and execute:
 
 ```javascript
 const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type","text/javascript");
-scriptElement.setAttribute("src","https://unpkg.com/filenamify-shrink@1.0.0");
+scriptElement.setAttribute("type", "text/javascript");
+scriptElement.setAttribute("src", "https://cdn.jsdelivr.net/npm/filenamify-shrink@1.0.0/index.js");
 document.querySelector("head").appendChild(scriptElement);
 ```
 
-This module is now loaded in a variable that can be accessed in any scope.
+filenamify-shrink is now stored in the global variable `filenamifyShrink`. The following console expression should return something other than `"undefined"`.
 
 ```javascript
 typeof filenamifyShrink.default
 ```
 
-## Documentation
-**Kind**: Exported function  
-**Returns**: <code>string</code> - A file-safe string  
 
-| Param | Type |
-| --- | --- |
-| string | <code>string</code> | 
 
-**Example**  
-```javascript
-import filenamifyShrink from "filenamify-shrink"
-const result = filenamifyShrink("a ?  ?b")
-result === "a b"
+
+
+
+## Development
+
+
+
+Setting up:
+```bash
+git clone git@github.com:Jaid/filenamify-shrink.git
+cd filenamify-shrink
+npm install
+```
+Testing:
+```bash
+npm run test:dev
+```
+Testing in production environment:
+```bash
+npm run test
 ```
 
 
@@ -51,7 +84,7 @@ result === "a b"
 ```text
 MIT License
 
-Copyright © 2019, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
+Copyright © 2020, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
