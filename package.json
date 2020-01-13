@@ -32,5 +32,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "filenamify-shrink",
-  "description": "Ensures file-safe strings by removing invalid characters."
+  "description": "Ensures file-safe strings by removing invalid characters.",
+  "funding": "https://github.com/sponsors/jaid"
 }
