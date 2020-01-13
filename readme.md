@@ -1,9 +1,9 @@
 # filenamify-shrink
 
 
-<a href="https://raw.githubusercontent.com/Jaid/filenamify-shrink/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/filenamify-shrink?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/filenamify-shrink/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Ffilenamify-shrink%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/filenamify-shrink/commits"><img src="https://img.shields.io/github/commits-since/Jaid/filenamify-shrink/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/filenamify-shrink/commits"><img src="https://img.shields.io/github/last-commit/Jaid/filenamify-shrink?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/filenamify-shrink/issues"><img src="https://img.shields.io/github/issues/Jaid/filenamify-shrink?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/filenamify-shrink"><img src="https://img.shields.io/npm/v/filenamify-shrink?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/filenamify-shrink/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/filenamify-shrink?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/filenamify-shrink"><img src="https://img.shields.io/npm/dm/filenamify-shrink?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/filenamify-shrink/master/license.txt"><img src="https://img.shields.io/github/license/jaid/filenamify-shrink?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor filenamify-shrink"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/filenamify-shrink/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Ffilenamify-shrink%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/filenamify-shrink/commits"><img src="https://img.shields.io/github/commits-since/jaid/filenamify-shrink/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/jaid/filenamify-shrink/commits"><img src="https://img.shields.io/github/last-commit/jaid/filenamify-shrink?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/filenamify-shrink/issues"><img src="https://img.shields.io/github/issues/jaid/filenamify-shrink?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/filenamify-shrink"><img src="https://img.shields.io/npm/v/filenamify-shrink?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/filenamify-shrink/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/filenamify-shrink?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/filenamify-shrink"><img src="https://img.shields.io/npm/dm/filenamify-shrink?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Ensures file-safe strings by removing invalid characters.**
 
@@ -41,14 +41,13 @@ yarn add filenamify-shrink@^1.0.0
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/filenamify-shrink.git
+git clone git@github.com:jaid/filenamify-shrink.git
 cd filenamify-shrink
 npm install
 ```
