@@ -38,5 +38,15 @@
     "url": "https://github.com/jaid/filenamify-shrink"
   },
   "homepage": "https://github.com/Jaid/filenamify-shrink",
-  "keywords": []
+  "keywords": [
+    "filenames",
+    "filenamify",
+    "filesystem",
+    "fs",
+    "lib",
+    "library",
+    "util",
+    "utility",
+    "wrapper"
+  ]
 }
