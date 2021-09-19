@@ -48,5 +48,6 @@
     "util",
     "utility",
     "wrapper"
-  ]
+  ],
+  "type": "module"
 }
